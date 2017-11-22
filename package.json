@@ -1,8 +1,8 @@
 {
   "name": "unpack-texturepacker",
   "author": "Vace <ocdo@qq.com> (https://vace.me)",
-  "version": "0.0.1",
-  "bin": "./bin/unpack-tp",
+  "version": "0.0.2",
+  "bin": "./bin/unpack-texturepacker",
   "main": "src/index.js",
   "license": "MIT",
   "repository": "https://github.com/vace/unpack-texturepacker",
@@ -15,7 +15,7 @@
     "sharp": "^0.18.4"
   },
   "scripts": {
-    "testbin": "./bin/unpack-tp -p ./test/jsonorjs/js.js -d",
+    "testbin": "./bin/unpack-texturepacker -p ./test/jsonorjs/js.js -d",
     "test": "node test/test.js"
   }
 }
